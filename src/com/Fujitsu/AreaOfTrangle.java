@@ -21,13 +21,15 @@ public class AreaOfTrangle {
 	//	System.out.println("Enter height");
 	//	h= sc.nextInt();
 		
-		public void area() {
+		public void areaTrangle() {
 		
 		area =  (b*h) /2;
 		}
+		
 
 		@Override
 		public String toString() {
+			this.areaTrangle();
 			return "AreaOfTrangle [area=" + area + "]";
 		}
 		
